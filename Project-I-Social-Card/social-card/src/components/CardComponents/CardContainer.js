@@ -5,5 +5,12 @@ import CardBanner from './CardBanner';
 import CardContent from './CardContent';
 
 const CardContainer = () => {
-    <div></div>
-}
+    return (
+    <div className = "cardContainerBox">
+        <CardBanner />
+        <CardContent />
+    </div>
+    );
+};
+
+export default CardContainer;
